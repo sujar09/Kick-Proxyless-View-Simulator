@@ -1,0 +1,7 @@
+{
+  "docker_image": "streamlink-tor",
+  "default_quality": "480p",
+  "output_directory": "",
+  "auto_remove_containers": true,
+  "container_prefix": "streamlink-session"
+}
