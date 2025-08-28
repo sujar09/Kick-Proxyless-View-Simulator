@@ -3,7 +3,7 @@
 A **Docker-based GUI application** for viewing [Kick.com](https://kick.com) streams with **built-in Tor proxy support**.  
 This tool enables multiple containerized Streamlink sessions with automatic Tor routing for **enhanced privacy** and **connection management**.
 
-**SUPPORTER EDITION ALLOWS UNLIMITED SESIONS**
+**SUPPORTER EDITION ALLOWS UNLIMITED SESSIONS**
 https://ko-fi.com/s/a61547e0b9
 
 **ACTIVELY DEVELOPED AND UPDATED**
@@ -198,4 +198,6 @@ Tor: Integrated
 ⚠️ This tool is for educational and legitimate streaming purposes only.
 Ensure compliance with Kick.com’s Terms of Service and local laws regarding proxy usage.
 
+**SUPPORTER EDITION ALLOWS UNLIMITED SESSIONS**
+https://ko-fi.com/s/a61547e0b9
 
